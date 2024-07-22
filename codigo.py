@@ -24,12 +24,12 @@ time.sleep(3)
 
 # Passo 2: Fazer login
 # selecionar o campo de email
-pyautogui.click(x=685, y=451)
+pyautogui.click(x=624, y=415)
 # escrever o seu email
 pyautogui.write("pythonimpressionador@gmail.com")
 pyautogui.press("tab") # passando pro próximo campo
 pyautogui.write("sua senha")
-pyautogui.click(x=955, y=638) # clique no botao de login
+pyautogui.click(x=814, y=572) # clique no botao de login
 time.sleep(3)
 
 # Passo 3: Importar a base de produtos pra cadastrar
